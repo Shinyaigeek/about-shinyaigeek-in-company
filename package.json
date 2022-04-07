@@ -1,0 +1,8 @@
+{
+  "name": "about-shinyaigeek-in-company",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shinyaigeek/about-shinyaigeek-in-company.git",
+  "author": "Shinyaigeek <Philispaxil@gmail.com>",
+  "license": "MIT"
+}
