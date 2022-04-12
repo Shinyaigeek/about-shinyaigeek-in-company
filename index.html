@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <p>掲示板</p>
-    <img src="https://ja.shinyaigeek.dev/assets/static/icon_transparent.png" />
+    <div class="slide">
+      <h1 id="slide-title">About Shinobu Hayashi/Shinyaigeek</h1>
+    </div>
+    <div class="slide">
+      <h2 class="title">Profile</h2>
+      <p>
+        <ul>
+          <li>name: Shinobu Hayashi</li>
+          <li>GitHub: @Shinyaigeek</li>
+          <li>Twitter: @Shinyaigeek (同姓同名のそっくりさんですが)</li>
+        </ul>
+      </p>
+    </div>
   </body>
   <style>
-    img {
-      height: 100px;
-      width: 100px;
+    .slide {
+      height: calc(100vh - 8px);
+      width: 100vw;
+      border-top: 4px solid #aaa;
+      border-bottom: 4px solid #aaa;
+      margin: 0;
+      padding: 0;
     }
   </style>
 </html>
